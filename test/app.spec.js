@@ -40,20 +40,20 @@ describe("App", function () {
   });
 
   describe("step2 ()", function () {
-    it("should multiply each element by 2", function () {
-      assert.deepEqual(step2, "hello WORLD how YA doing?");
+    it("every second word in the string is uppercase", function () {
+      assert.equal(step2, "hello WORLD how YA doing?");
     });
   });
 
   describe("step3 ()", function () {
-    it("should multiply each element by 2", function () {
+    it("Remove all negative numbers from the array using filter function", function () {
       assert.deepEqual(step3, [0, 1, 2]);
     });
   });
 
   describe("step4 ()", function () {
-    it("should multiply each element by 2", function () {
-      assert.deepEqual(step4, 4);
+    it("Find the largest number in the array using reduce function", function () {
+      assert.equal(step4, 4);
     });
   });
 });
